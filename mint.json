@@ -5,7 +5,7 @@
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
-  "favicon": "https://abigailmanagement.com/favicon.ico",
+  "favicon": "/favicon.svg",
   "colors": {
     "primary": "#06B6D4",
     "light": "#07C983",
