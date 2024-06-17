@@ -22,30 +22,19 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "App",
+    "name": "Go to App",
     "url": "https://app.abigailmanagement.com/"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
   "anchors": [
     {
-      "name": "Documentation",
+      "name": "Pricing",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://abigailmanagement.com/pricing"
     },
     {
-      "name": "Community",
+      "name": "Contact Us",
       "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://abigailmanagement.com/contact"
     }
   ],
   "navigation": [
@@ -84,8 +73,7 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "facebook": "https://www.facebook.com/AbigailManagement",
+    "instagram": "https://www.instagram.com/abigail.management/"
   }
 }
