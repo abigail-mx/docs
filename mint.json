@@ -1,13 +1,13 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Abigail",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "https://abigailmanagement.com/favicon.ico",
   "colors": {
-    "primary": "#0D9373",
+    "primary": "#06B6D4",
     "light": "#07C983",
     "dark": "#0D9373",
     "anchors": {
