@@ -2,17 +2,17 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Abigail",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "https://abigailmanagement.com/abigailWhite.svg",
+    "light": "https://abigailmanagement.com/abigailColor.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "https://abigailmanagement.com/favicon-32x32.png",
   "colors": {
     "primary": "#06B6D4",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "light": "#06B6D4",
+    "dark": "#06B6D4",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#155E75",
+      "to": "#06B6D4"
     }
   },
   "topbarLinks": [
@@ -28,12 +28,12 @@
   "anchors": [
     {
       "name": "Pricing",
-      "icon": "book-open-cover",
+      "icon": "dollar-sign",
       "url": "https://abigailmanagement.com/pricing"
     },
     {
       "name": "Contact Us",
-      "icon": "slack",
+      "icon": "headset",
       "url": "https://abigailmanagement.com/contact"
     }
   ],
