@@ -41,7 +41,7 @@
     {
       "group": "Home",
       "pages": [
-        "home/introduction"
+        "es/home/introduction"
       ]
     }
   ],
