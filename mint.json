@@ -5,7 +5,7 @@
     "dark": "https://abigailmanagement.com/abigailWhite.svg",
     "light": "https://abigailmanagement.com/abigailColor.svg"
   },
-  "favicon": "https://abigailmanagement.com/favicon-32x32.png",
+  "favicon": "favicon.png",
   "colors": {
     "primary": "#06B6D4",
     "light": "#06B6D4",
@@ -39,10 +39,43 @@
   ],
   "navigation": [
     {
+      "group": "What is abigail?",
+      "pages": [
+        "en/what-is-abigail/introduction"
+      ],
+      "version": "en"
+    },
+    {
+      "group": "¿Qué es abigail?",
+      "pages": [
+        "es/what-is-abigail/introduction"
+      ],
+      "version": "es"
+    },
+    {
       "group": "Home",
       "pages": [
-        "es/home/introduction"
-      ]
+        "en/home/introduction",
+        "en/home/widgets"
+      ],
+      "version": "en"
+    },
+    {
+      "group": "Inicio",
+      "pages": [
+        "es/home/introduction",
+        "es/home/widgets"
+      ],
+      "version": "es"
+    },
+    {
+      "group": "Compañia",
+      "pages": [
+        "es/company/introduction",
+        "es/company/create-company",
+        "es/company/edit-company"
+      ],
+      "version": "es"
     }
   ],
   "versions": ["en", "es"],
