@@ -76,6 +76,42 @@
         "es/company/edit-company"
       ],
       "version": "es"
+    },
+    {
+      "group": "Directorio",
+      "pages": [
+        "es/directory/introduction"
+      ],
+      "version": "es"
+    },
+    {
+      "group": "Configuracion",
+      "pages": [
+        "es/settings/introduction"
+      ],
+      "version": "es"
+    },
+    {
+      "group": "Proveedores",
+      "pages": [
+        "es/suppliers/introduction"
+      ],
+      "version": "es"
+    },
+    {
+      "group": "Usuarios",
+      "pages": [
+        "es/users/introduction"
+      ],
+      "version": "es"
+    },
+    {
+      "group": "Almacenes",
+      "pages": [
+        "es/warehouses/introduction",
+        "es/warehouses/change-stock"
+      ],
+      "version": "es"
     }
   ],
   "versions": ["en", "es"],
