@@ -15,6 +15,22 @@
       "to": "#06B6D4"
     }
   },
+  "metadata": {
+    "og:site_name": "abigail",
+    "og:title": "abigail - Cloud-Based Business Management Solution",
+    "og:description": "abigail is a business management platform that allows you to manage your business in the cloud. You can keep track of your sales, inventory, customers, and suppliers from anywhere and any device.",
+    "og:url": "https://abigailmanagement.com",
+    "og:image": "https://abigailmanagement.com/abigailOG.jpg",
+    "og:image:width": "1200",
+    "og:image:height": "600",
+    "og:locale": "en_US",
+    "og:logo": "https://abigailmanagement.com/abigailColor.svg",
+    "article:publisher": "https://www.facebook.com/abigailmanagement",
+    "twitter:title": "abigail - Cloud-Based Business Management Solution",
+    "twitter:description": "abigail is a business management platform that allows you to manage your business in the cloud. You can keep track of your sales, inventory, customers, and suppliers from anywhere and any device.",
+    "twitter:url": "https://abigailmanagement.com",
+    "twitter:image": "https://abigailmanagement.com/abigailOG.jpg"
+  },
   "topbarLinks": [
     {
       "name": "Support",
@@ -118,11 +134,13 @@
       ],
       "version": "es"
     }
-
   ],
-  "versions": ["en", "es"],
+  "versions": [
+    "en",
+    "es"
+  ],
   "footerSocials": {
-    "facebook": "https://www.facebook.com/AbigailManagement",
+    "facebook": "https://www.facebook.com/abigailManagement",
     "instagram": "https://www.instagram.com/abigail.management/"
   }
 }
