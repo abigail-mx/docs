@@ -1,0 +1,59 @@
+---
+title: 'Accounts Receivable'
+description: 'Manage outstanding accounts with your clients.'
+---
+
+# Accounts Receivable: Managing Outstanding Accounts
+
+To view accounts receivable, you need access to the **Accounts Receivable** module.
+
+## Navigation and Access
+
+1. **Access the Accounts Receivable Module:**
+   - In the navigation bar, find and click on the **Accounts Receivable** section.
+
+## Module Information
+
+This module helps you keep track of outstanding accounts with your clients.
+
+### Overview
+
+1. **Accounts Receivable List:**
+   - On the main screen, you will see a list of accounts receivable, including:
+     - Client name
+     - Payment due date
+     - Remaining amount
+   - You will also find a bar chart breaking down accounts by month.
+
+   <img
+     className="block"
+     src="/images/accounts-receivable-list-en.png"
+     alt="Accounts Receivable List"
+   />
+
+### Creating and Managing Accounts
+
+1. **Creating Accounts Receivable:**
+   - You cannot add accounts receivable directly from this section.
+   - To create a new account receivable, make a sale to a client in the **Sales** module, selecting the payment status as "Pending" or "Partial" and filling out the required information.
+
+2. **Managing Accounts:**
+   - When viewing the details of an accounts receivable, you can adjust the paid amount to keep track of payments. This payment will be recorded in the **Sales** module as "Customer Payment".
+   - Example: If you make a sale of merchandise for $1000 and receive a partial payment of $500, an accounts receivable for $500 will be created along with a revenue record as "Sale of Merchandise". If you later pay $700, a new record will be created as "Customer Payment" for the remaining $200.
+
+   <img
+     className="block"
+     src="/images/accounts-receivable-details-en.png"
+     alt="Accounts Receivable Details"
+   />
+
+3. **Status Changes:**
+   - If you change the status of the account to "Paid", the payment will be recorded in revenues as "Client Payment" for the remaining amount. For example, if the total amount was $1200 and $500 was already paid, changing the status to "Paid" will register a payment of $700.
+
+   <img
+     className="block"
+     src="/images/accounts-receivable-status-en.png"
+     alt="Status Change"
+   />
+
+When the paid amount equals or exceeds the total amount of the account and/or the payment status is "Paid", the accounts receivable will be automatically removed from the system.

@@ -1,0 +1,59 @@
+---
+title: 'Cuentas por Pagar'
+description: 'Gestiona las cuentas pendientes con tus proveedores.'
+---
+
+# Cuentas por Pagar: Gestión de Cuentas Pendientes
+
+Para visualizar las cuentas por pagar, debe tener acceso al módulo de **Cuentas por Pagar**.
+
+## Navegación y Acceso
+
+1. **Acceda al Módulo de Cuentas por Pagar:**
+   - En la barra de navegación, busque el apartado **Cuentas por Pagar** y haga clic en él.
+
+## Información del Módulo
+
+El módulo de Cuentas por Pagar le ayuda a llevar un registro de las cuentas pendientes con sus proveedores.
+
+### Vista General
+
+1. **Listado de Cuentas por Pagar:**
+   - En la primera pantalla, encontrará un listado de las cuentas por pagar, que incluye:
+     - Nombre del proveedor
+     - Fecha de pago
+     - Monto restante
+   - También encontrará una gráfica de barras que desglosa las cuentas por mes.
+
+   <img
+     className="block"
+     src="/images/accounts-payable-list-es.png"
+     alt="Listado de Cuentas por Pagar"
+   />
+
+### Creación y Gestión de Cuentas
+
+1. **Creación de Cuentas por Pagar:**
+   - No puede agregar cuentas por pagar directamente desde este apartado.
+   - Para crear una nueva cuenta por pagar, realice una compra a un proveedor en el módulo de **Compras**, seleccionando el estatus de pago como "Pendiente" o "Parcial" y completando la información solicitada.
+
+2. **Gestión de Cuentas:**
+   - Al ingresar al detalle de una cuenta por pagar, puede ajustar el monto pagado para llevar un registro de los pagos. Este abono se registrará en el módulo de **Gastos** como "Pago a Proveedor".
+   - Ejemplo: Si realiza una compra de mercancía por $1000 y recibe un pago parcial de $500, se creará una cuenta por pagar por $500 y un registro en gastos como "Compra de Mercancía". Si luego paga $700, se registrará el pago como "Pago a Proveedor" por la diferencia de $200.
+
+   <img
+     className="block"
+     src="/images/accounts-payable-details-es.png"
+     alt="Detalles de Cuenta por Pagar"
+   />
+
+3. **Cambio de Estatus:**
+   - Si cambia el estatus de la cuenta a "Pagado", se registrará el pago en gastos como "Pago a Proveedor" por la diferencia. Por ejemplo, si el monto total era $1200 y ya se había pagado $500, cambiar el estatus a "Pagado" registrará un pago de $700.
+
+   <img
+     className="block"
+     src="/images/accounts-payable-status-es.png"
+     alt="Cambio de Estatus"
+   />
+
+Cuando la cantidad pagada sea igual o mayor al monto total de la cuenta y/o el estatus sea "Pagado", la cuenta por pagar se eliminará automáticamente del sistema.

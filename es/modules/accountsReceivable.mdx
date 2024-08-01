@@ -1,0 +1,59 @@
+---
+title: 'Cuentas por Cobrar'
+description: 'Gestiona las cuentas pendientes hacia tus clientes.'
+---
+
+# Cuentas por Cobrar: Gestión de Cuentas Pendientes
+
+Para visualizar las cuentas por cobrar, debe tener acceso al módulo de **Cuentas por Cobrar**.
+
+## Navegación y Acceso
+
+1. **Acceda al Módulo de Cuentas por Cobrar:**
+   - En la barra de navegación, busque el apartado **Cuentas por Cobrar** y haga clic en él.
+
+## Información del Módulo
+
+Este módulo le ayuda a llevar un registro de las cuentas pendientes hacia sus clientes.
+
+### Vista General
+
+1. **Listado de Cuentas por Cobrar:**
+   - En la primera pantalla, verá un listado de las cuentas por cobrar, que incluye:
+     - Nombre del cliente
+     - Fecha de pago
+     - Monto restante
+   - También encontrará una gráfica de barras que desglosa las cuentas por mes.
+
+   <img
+     className="block"
+     src="/images/accounts-receivable-list-es.png"
+     alt="Listado de Cuentas por Cobrar"
+   />
+
+### Creación y Gestión de Cuentas
+
+1. **Creación de Cuentas por Cobrar:**
+   - No puede agregar cuentas por cobrar directamente desde este apartado.
+   - Para crear una nueva cuenta por cobrar, realice una venta a un cliente en el módulo de **Ventas**, seleccionando el estatus de pago como "Pendiente" o "Parcial" y complete la información solicitada.
+
+2. **Gestión de Cuentas:**
+   - Al ingresar al detalle de una cuenta por cobrar, puede ajustar el monto pagado para llevar un registro de los pagos. Este abono se registrará en el módulo de **Ventas** como "Pago de Cliente".
+   - Ejemplo: Si realiza una venta de mercancía por $1000 y recibe un pago parcial de $500, se creará una cuenta por cobrar por $500 y un registro en ingresos como "Venta de Mercancía". Si luego paga $700, se registrará el pago como "Pago de Cliente" por la diferencia de $200.
+
+   <img
+     className="block"
+     src="/images/accounts-receivable-details-es.png"
+     alt="Detalles de Cuenta por Cobrar"
+   />
+
+3. **Cambio de Estatus:**
+   - Si cambia el estatus de la cuenta a "Pagado", se registrará el pago en ingresos como "Pago a Clientes" por la diferencia. Por ejemplo, si el monto total era $1200 y ya se había pagado $500, cambiar el estatus a "Pagado" registrará un pago de $700.
+
+   <img
+     className="block"
+     src="/images/accounts-receivable-status-es.png"
+     alt="Cambio de Estatus"
+   />
+
+Cuando la cantidad pagada sea igual o mayor al monto total de la cuenta, y/o el estatus sea "Pagado", la cuenta por cobrar se eliminará automáticamente del sistema.

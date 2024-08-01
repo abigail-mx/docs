@@ -53,34 +53,61 @@
       "version": "es"
     },
     {
-      "group": "Home",
+      "group": "Modules",
       "pages": [
-        "en/home/introduction",
-        "en/home/widgets"
+        "en/modules/accounting",
+        "en/modules/accountsPayable",
+        "en/modules/accountsReceivable",
+        "en/modules/directory",
+        "en/modules/expenses",
+        "en/modules/home",
+        "en/modules/production",
+        "en/modules/products",
+        "en/modules/revenue",
+        "en/modules/services",
+        "en/modules/suppliers",
+        "en/modules/users",
+        "en/modules/warehouses"
       ],
       "version": "en"
     },
     {
-      "group": "Inicio",
+      "group": "Company",
       "pages": [
-        "es/home/introduction",
-        "es/home/widgets"
+        "en/company/introduction"
+      ],
+      "version": "en"
+    },
+    {
+      "group": "Settings",
+      "pages": [
+        "en/settings/introduction"
+      ],
+      "version": "en"
+    },
+    {
+      "group": "Modulos",
+      "pages": [
+        "es/modules/accounting",
+        "es/modules/accountsPayable",
+        "es/modules/accountsReceivable",
+        "es/modules/directory",
+        "es/modules/expenses",
+        "es/modules/home",
+        "es/modules/production",
+        "es/modules/products",
+        "es/modules/revenue",
+        "es/modules/services",
+        "es/modules/suppliers",
+        "es/modules/users",
+        "es/modules/warehouses"
       ],
       "version": "es"
     },
     {
       "group": "Compañia",
       "pages": [
-        "es/company/introduction",
-        "es/company/create-company",
-        "es/company/edit-company"
-      ],
-      "version": "es"
-    },
-    {
-      "group": "Directorio",
-      "pages": [
-        "es/directory/introduction"
+        "es/company/introduction"
       ],
       "version": "es"
     },
@@ -90,29 +117,8 @@
         "es/settings/introduction"
       ],
       "version": "es"
-    },
-    {
-      "group": "Proveedores",
-      "pages": [
-        "es/suppliers/introduction"
-      ],
-      "version": "es"
-    },
-    {
-      "group": "Usuarios",
-      "pages": [
-        "es/users/introduction"
-      ],
-      "version": "es"
-    },
-    {
-      "group": "Almacenes",
-      "pages": [
-        "es/warehouses/introduction",
-        "es/warehouses/change-stock"
-      ],
-      "version": "es"
     }
+
   ],
   "versions": ["en", "es"],
   "footerSocials": {
