@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "abigail",
   "logo": {
-    "dark": "https://abigailmanagement.com/abigailWhite.svg",
-    "light": "https://abigailmanagement.com/abigailColor.svg"
+    "dark": "https://www.abigail.mx/abigailWhite.svg",
+    "light": "https://www.abigail.mx/abigailColor.svg"
   },
   "favicon": "favicon.png",
   "colors": {
@@ -17,130 +17,83 @@
   },
   "metadata": {
     "og:site_name": "abigail",
-    "og:title": "abigail - Cloud-Based Business Management Solution",
-    "og:description": "abigail is a business management platform that allows you to manage your business in the cloud. You can keep track of your sales, inventory, customers, and suppliers from anywhere and any device.",
-    "og:url": "https://abigailmanagement.com",
-    "og:image": "https://abigailmanagement.com/abigailOG.jpg",
+    "og:title": "abigail - Administra tu negocio en la nube",
+    "og:description": "abigail es una plataforma de gestión empresarial que te permite administrar tu negocio en la nube. Puedes llevar el control de tus ventas, inventario, clientes y proveedores desde cualquier lugar y dispositivo.",
+    "og:url": "https://www.abigail.mx",
+    "og:image": "https://www.abigail.mx/abigailOG.jpg",
     "og:image:width": "1200",
     "og:image:height": "600",
-    "og:locale": "en_US",
-    "og:logo": "https://abigailmanagement.com/abigailColor.svg",
-    "article:publisher": "https://www.facebook.com/abigailmanagement",
-    "twitter:title": "abigail - Cloud-Based Business Management Solution",
-    "twitter:description": "abigail is a business management platform that allows you to manage your business in the cloud. You can keep track of your sales, inventory, customers, and suppliers from anywhere and any device.",
-    "twitter:url": "https://abigailmanagement.com",
-    "twitter:image": "https://abigailmanagement.com/abigailOG.jpg"
+    "og:locale": "es",
+    "og:logo": "https://www.abigail.mx/abigailColor.svg",
+    "article:publisher": "https://www.facebook.com/abigail.mx.erp",
+    "twitter:title": "abigail - Administra tu negocio en la nube",
+    "twitter:description": "abigail es una plataforma de gestión empresarial que te permite administrar tu negocio en la nube. Puedes llevar el control de tus ventas, inventario, clientes y proveedores desde cualquier lugar y dispositivo.",
+    "twitter:url": "https://www.abigail.mx",
+    "twitter:image": "https://www.abigail.mx/abigailOG.jpg"
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:contact@abigailmanagement.com"
+      "name": "Soporte",
+      "url": "mailto:contacto@abigail.mx"
     }
   ],
   "topbarCtaButton": {
-    "name": "Go to App",
-    "url": "https://app.abigailmanagement.com/"
+    "name": "Ir a abigail",
+    "url": "https://app.abigail.mx/"
   },
   "anchors": [
     {
-      "name": "Pricing",
+      "name": "Planes",
       "icon": "dollar-sign",
-      "url": "https://abigailmanagement.com/pricing"
+      "url": "https://www.abigail.mx/planes"
     },
     {
-      "name": "Contact Us",
+      "name": "Contáctanos",
       "icon": "headset",
-      "url": "https://abigailmanagement.com/contact"
+      "url": "https://www.abigail.mx/contacto"
     }
   ],
   "navigation": [
     {
-      "group": "What is abigail?",
-      "pages": [
-        "en/what-is-abigail/introduction"
-      ],
-      "version": "en"
-    },
-    {
       "group": "¿Qué es abigail?",
       "pages": [
-        "es/what-is-abigail/introduction"
-      ],
-      "version": "es"
+        "abigail/introduccion"
+      ]
     },
     {
-      "group": "Modules",
+      "group": "Módulos",
       "pages": [
-        "en/modules/accounting",
-        "en/modules/accountsPayable",
-        "en/modules/accountsReceivable",
-        "en/modules/directory",
-        "en/modules/expenses",
-        "en/modules/home",
-        "en/modules/production",
-        "en/modules/products",
-        "en/modules/revenue",
-        "en/modules/services",
-        "en/modules/suppliers",
-        "en/modules/users",
-        "en/modules/warehouses"
-      ],
-      "version": "en"
-    },
-    {
-      "group": "Company",
-      "pages": [
-        "en/company/introduction"
-      ],
-      "version": "en"
-    },
-    {
-      "group": "Settings",
-      "pages": [
-        "en/settings/introduction"
-      ],
-      "version": "en"
-    },
-    {
-      "group": "Modulos",
-      "pages": [
-        "es/modules/accounting",
-        "es/modules/accountsPayable",
-        "es/modules/accountsReceivable",
-        "es/modules/directory",
-        "es/modules/expenses",
-        "es/modules/home",
-        "es/modules/production",
-        "es/modules/products",
-        "es/modules/revenue",
-        "es/modules/services",
-        "es/modules/suppliers",
-        "es/modules/users",
-        "es/modules/warehouses"
-      ],
-      "version": "es"
+        "modulos/almacenes",
+        "modulos/contabilidad",
+        "modulos/cuentasPorCobrar",
+        "modulos/cuentasPorPagar",
+        "modulos/directorio",
+        "modulos/gastos",
+        "modulos/ingresos",
+        "modulos/inicio",
+        "modulos/miCompañia",
+        "modulos/produccion",
+        "modulos/productos",
+        "modulos/proveedores",
+        "modulos/servicios",
+        "modulos/usuarios"
+      ]
     },
     {
       "group": "Compañia",
       "pages": [
-        "es/company/introduction"
-      ],
-      "version": "es"
+        "compañia/introduccion"
+      ]
     },
     {
-      "group": "Configuracion",
+      "group": "Configuración",
       "pages": [
-        "es/settings/introduction"
-      ],
-      "version": "es"
+        "configuración/introduccion"
+      ]
     }
   ],
-  "versions": [
-    "en",
-    "es"
-  ],
   "footerSocials": {
-    "facebook": "https://www.facebook.com/abigailManagement",
-    "instagram": "https://www.instagram.com/abigail.management/"
+    "facebook": "https://www.facebook.com/abigail.mx.erp/",
+    "instagram": "https://www.instagram.com/abigail.mx.erp/"
   }
 }
