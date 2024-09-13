@@ -82,7 +82,8 @@
     {
       "group": "Compañia",
       "pages": [
-        "compañia/introduccion"
+        "compañia/creacion",
+        "compañia/explicacionPlanes"
       ]
     },
     {
