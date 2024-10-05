@@ -61,6 +61,27 @@
       ]
     },
     {
+      "group": "Compañia",
+      "pages": [
+        "compania/creacion",
+        "compania/explicacionPlanes"
+      ]
+    },
+    {
+      "group": "Cuenta",
+      "pages": [
+        "cuenta/introduccion"
+      ]
+    },
+    {
+      "group": "Facturación",
+      "pages": [
+        "facturacion/configuracion",
+        "facturacion/descargarFactura",
+        "facturacion/cancelarFactura"
+      ]
+    },
+    {
       "group": "Módulos",
       "pages": [
         "modulos/almacenes",
@@ -77,19 +98,6 @@
         "modulos/proveedores",
         "modulos/servicios",
         "modulos/usuarios"
-      ]
-    },
-    {
-      "group": "Compañia",
-      "pages": [
-        "compañia/creacion",
-        "compañia/explicacionPlanes"
-      ]
-    },
-    {
-      "group": "Configuración",
-      "pages": [
-        "configuración/introduccion"
       ]
     }
   ],
