@@ -86,6 +86,7 @@
       "pages": [
         "modulos/almacenes",
         "modulos/contabilidad",
+        "modulos/cotizaciones",
         "modulos/cuentasPorCobrar",
         "modulos/cuentasPorPagar",
         "modulos/directorio",
