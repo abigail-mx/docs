@@ -3,37 +3,75 @@ title: 'Productos'
 description: 'Administra y organiza los productos de tu empresa con abigail.'
 ---
 
-# Productos: Gestión y Organización de Productos
-
+<Warning>
 Para visualizar los productos, necesita acceso al módulo de **Productos**.
+</Warning>
 
 ## Navegación y Acceso
 
-1. **Accede al Módulo de Productos:**
+### Accede al Módulo de Productos
    - En la barra de navegación, busca y selecciona el apartado **Productos**.
    - Haz clic para ingresar al módulo.
 
-## Panel de Productos
-
-Este módulo le ayudará a registrar y encontrar los productos de su empresa.
-
-### Sección de Productos
+## Lista de Productos
 
 1. **Buscar Productos:**
-   - Use el botón de búsqueda para encontrar productos por su nombre registrado.
+   - Utilice los filtros disponibles para encontrar productos por categoría, marca, etc.
 
 2. **Agregar Productos:**
    - Haga clic en **Agregar Producto**.
    - Complete los campos requeridos.
    - Haga clic en **Agregar Producto** para guardar el producto automáticamente.
+   - Puede agregar productos de forma individual o importarlos a través de un archivo de Excel. (Ver sección de **Importar Productos**).
 
+3. **Exportar Productos:**
+   - Haga clic en **Exportar** para descargar la lista de productos en formato de Excel. Puede filtrar o descargar todos los productos.
+
+<Frame>
    <img
-     className="block"
-     src="/images/products-list-es.png"
-     alt="Lista de Productos"
+      className="block"
+      src="/images/products-list-es.png"
+      alt="Lista de Productos"
    />
+</Frame>
 
-### Sección de Categorías de Productos
+### Importar Productos
+
+Es posible importar productos a través de un archivo de Excel (.xslx). Puede descargar la [plantilla aqui](https://shorturl.at/mpHxZ).
+
+#### Guía de llenado de la plantilla
+
+1. **Nombre del Producto**
+   - Obligatorio
+2. **Marca:**
+   - Opcional
+3. **Clave de Producto (SAT)**
+   - Opcional
+   - Necesario para la facturación electrónica, debe coincidir con el [catálogo del SAT](http://pys.sat.gob.mx/PyS/catPyS.aspx).
+4. **SKU**
+   - Opcional
+5. **Precio de Venta**
+   - Obligatorio
+   - Formato: 0.00
+   - NO incluir el signo de pesos ($)
+6. **Categoría**
+   - Obligatorio
+7. **Unidad de Medida**
+   - Obligatorio
+8. **Clave de Unidad (SAT)**
+   - Opcional
+   - Necesario para la facturación electrónica, debe coincidir con el [catálogo del SAT](http://pys.sat.gob.mx/PyS/catUnidades.aspx).
+9. **Descripción**
+   - Opcional
+10. **Impuesto**
+      - Opcional
+      - Valores permitidos: 000 - Exento, 002 - IVA, 003 - IEPS, si se deja en blanco se considera exento. Ejemplo: 002
+11. **Tasa de Impuesto**
+      - Opcional
+      - Formato: (0-100), por ejemplo IVA del 16% se ingresa como 16
+      - NO incluir el signo de porcentaje (%)
+
+## Lista de Categorías de Productos
 
 1. **Buscar Categorías:**
    - Use el botón de búsqueda para encontrar categorías de productos.
@@ -42,19 +80,27 @@ Este módulo le ayudará a registrar y encontrar los productos de su empresa.
    - Haga clic en **Agregar Categoría**.
    - Ingrese el nombre y la descripción de la categoría (por ejemplo, si es consumible).
 
+<Frame>
    <img
      className="block"
      src="/images/categories-list-es.png"
      alt="Lista de Categorías"
    />
+</Frame>
 
 3. **Detalles de Categoría:**
    - Al seleccionar una categoría, verá el desglose de los productos en esa categoría.
 
+<Frame>
    <img
      className="block"
      src="/images/categories-details-es.png"
      alt="Detalles de Categoría"
    />
+</Frame>
 
-abigail facilita la gestión y organización de productos, permitiendo un control eficiente y detallado de los productos de su empresa.
+---
+
+<Card title="Comienza tu prueba gratis hoy y comienza a facturar con abigail" icon="rocket" href="https://www.abigail.mx/planes">
+  Explora las ventajas de abigail, el software que combina CRM y ERP para optimizar la gestión de tu empresa. Aprovecha nuestro periodo de prueba gratuito y comienza a emitir facturas electrónicas hoy mismo.
+</Card>

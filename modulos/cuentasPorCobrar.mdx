@@ -2,58 +2,41 @@
 title: 'Cuentas por Cobrar'
 description: 'Gestiona las cuentas pendientes hacia tus clientes.'
 ---
-
-# Cuentas por Cobrar: Gestión de Cuentas Pendientes
-
+<Warning>
 Para visualizar las cuentas por cobrar, debe tener acceso al módulo de **Cuentas por Cobrar**.
+</Warning>
 
 ## Navegación y Acceso
 
-1. **Acceda al Módulo de Cuentas por Cobrar:**
+**Acceda al Módulo de Cuentas por Cobrar:**
    - En la barra de navegación, busque el apartado **Cuentas por Cobrar** y haga clic en él.
 
-## Información del Módulo
+## Listado de Cuentas por Cobrar
 
-Este módulo le ayuda a llevar un registro de las cuentas pendientes hacia sus clientes.
+Una vez dentro del módulo, encontrará una lista detallada de las **Cuentas Por Cobrar** de tu empresa. Puede filtrar esta lista para una búsqueda más eficiente. También puede exportarla a Excel.
 
-### Vista General
+## Gráfica de Cuentas por Cobrar
 
-1. **Listado de Cuentas por Cobrar:**
-   - En la primera pantalla, verá un listado de las cuentas por cobrar, que incluye:
-     - Nombre del cliente
-     - Fecha de pago
-     - Monto restante
-   - También encontrará una gráfica de barras que desglosa las cuentas por mes.
+Debajo del listado, se encuentra una gráfica de barras que desglosa las **Cuentas Por Cobrar** por mes. Esta gráfica se puede descargar como imagen o CSV al presionar en el icono de las 3 lineas en la parte superior derecha.
 
-   <img
-     className="block"
-     src="/images/accounts-receivable-list-es.png"
-     alt="Listado de Cuentas por Cobrar"
-   />
+## Creación de Cuentas por Cobrar
 
-### Creación y Gestión de Cuentas
+Para crear una nueva cuenta por pagar, realice una venta a un cliente en el módulo de [Ventas](http://docs.abigail.mx/modulos/ventas), completando la información solicitada. Si el monto pagado es menor al monto total, el sistema creara una **Cuenta Por Cobrar** con la información correspondiente automaticamente.
+<Tip>
+Si el monto pagado es igual al monto total, el sistema NO creara una **Cuenta Por Cobrar**.
+</Tip>
 
-1. **Creación de Cuentas por Cobrar:**
-   - No puede agregar cuentas por cobrar directamente desde este apartado.
-   - Para crear una nueva cuenta por cobrar, realice una venta a un cliente en el módulo de **Ventas**, seleccionando el estatus de pago como "Pendiente" o "Parcial" y complete la información solicitada.
+## Gestión de Cuentas por Cobrar
 
-2. **Gestión de Cuentas:**
-   - Al ingresar al detalle de una cuenta por cobrar, puede ajustar el monto pagado para llevar un registro de los pagos. Este abono se registrará en el módulo de **Ventas** como "Pago de Cliente".
-   - Ejemplo: Si realiza una venta de mercancía por $1000 y recibe un pago parcial de $500, se creará una cuenta por cobrar por $500 y un registro en ingresos como "Venta de Mercancía". Si luego paga $700, se registrará el pago como "Pago de Cliente" por la diferencia de $200.
+Puede ingresar a los detalles de una **Cuenta Por Cobrar** al hacer clic en la flecha de lado izquierdo de cada entrada en la lista.
+Una vez dentro, podra visualizar informacion detallada de la **Cuenta Por Cobrar** y los pagos realizados.
 
-   <img
-     className="block"
-     src="/images/accounts-receivable-details-es.png"
-     alt="Detalles de Cuenta por Cobrar"
-   />
+Para registrar un pago, haga clic en **Agregar** y complete la información solicitada. El sistema registrará el pago en el módulo de [Ingresos](http://docs.abigail.mx/modulos/ingresos) como "Pago de Cliente".
 
-3. **Cambio de Estatus:**
-   - Si cambia el estatus de la cuenta a "Pagado", se registrará el pago en ingresos como "Pago a Clientes" por la diferencia. Por ejemplo, si el monto total era $1200 y ya se había pagado $500, cambiar el estatus a "Pagado" registrará un pago de $700.
+<Tip>
+Si el monto pagado es igual al monto total, el sistema marcara la **Cuenta Por Cobrar** como **Pagada**.
+</Tip>
 
-   <img
-     className="block"
-     src="/images/accounts-receivable-status-es.png"
-     alt="Cambio de Estatus"
-   />
+## Facturar un Pago (Complemento de Pago 2.0)
 
-Cuando la cantidad pagada sea igual o mayor al monto total de la cuenta, y/o el estatus sea "Pagado", la cuenta por cobrar se eliminará automáticamente del sistema.
+Si tiene acceso al módulo de [Facturación](http://docs.abigail.mx/modulos/facturacion), puede generar una factura para el pago de la **Cuenta Por Cobrar**. En el listado de pagos realizados, haga clic en **Timbrar** y llene la información solicitada. Esto generara un Complemento de Pago 2.0 que podra consultar y descargar en el módulo de [Facturación](http://docs.abigail.mx/modulos/facturacion)

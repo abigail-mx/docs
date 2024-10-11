@@ -3,19 +3,19 @@ title: 'Almacenes'
 description: 'Gestiona eficientemente el inventario de tu empresa con abigail.'
 ---
 
-# Almacenes: Gestión Integral del Inventario Empresarial
-
-Gestiona eficientemente el inventario de tu empresa con el módulo de **Almacenes** de abigail, la solución definitiva para la administración de empresas en la nube.
-
----
-
+<Warning>
 Para visualizar y gestionar el almacén o almacenes de tu empresa, necesitas tener acceso al módulo de **Almacenes**.
+</Warning>
 
 ## Navegación y Acceso
 
-1. **Accede al Módulo de Almacenes:**
-   - En la barra de navegación, busca y selecciona el módulo **Almacenes**.
-   - Haz clic para ingresar al módulo.
+**Accede al Módulo de Almacenes:**
+   - En la barra de navegación, busca y selecciona el módulo **Almacenes** y haga clic en él.
+
+## Listado de Almacenes
+
+Una vez dentro del módulo, encontrarás una lista detallada de tus almacenes, cada uno conteniendo la mercancía de tu empresa. Puedes filtrar esta lista por el nombre del almacén para una búsqueda más eficiente.
+Al hacer clic en la flecha de cada almacén, podrás ver y modificar su información.
 
 <Frame>
 <img
@@ -25,38 +25,19 @@ Para visualizar y gestionar el almacén o almacenes de tu empresa, necesitas ten
 />
 </Frame>
 
-## Gestión de Almacenes
-
-Una vez dentro del módulo, encontrarás una lista detallada de tus almacenes, cada uno conteniendo la mercancía de tu empresa. Puedes filtrar esta lista por el nombre del almacén para una búsqueda más eficiente.
-
-## Crear y Administrar Almacenes
+## Crear un Almacén
 
 - **Agregar un Almacén:**
-  - Haz clic en **Agregar**.
+  - En el listado, haz clic en **Agregar**.
   - Completa los campos solicitados y asigna un encargado para el nuevo almacén.
 
-<Frame>
-<img
-  className="block"
-  src="/images/crear-almacen.png"
-  alt="Agregar Almacén"
-/>
-</Frame>
 
-- **Modificar Información del Almacén:**
-  - Accede a la página del almacén para actualizar su información o gestionar su inventario.
-
-<Frame>
-<img
-  className="block"
-  src="/images/detalles-almacen.png"
-  alt="Detalles Almacén"
-/>
-</Frame>
+## Modificar Información del Almacén
+  - Accede a la página del almacén para actualizar su información o gestionar su inventario. Puedes acceder al hacer clic en la flecha del almacén del lado derecho en el listado.
 
 ## Gestión del Inventario
 
-El inventario varía según los productos y es independiente entre almacenes. Hay tres formas de modificar el inventario:
+El inventario es independiente entre almacenes. Hay varias formas de modificar el inventario:
 
 <Frame>
 <img
@@ -68,14 +49,7 @@ El inventario varía según los productos y es independiente entre almacenes. Ha
 
 1. **Manual:**
    Accede a los detalles del almacén y ajusta el inventario manualmente.
-   <Frame>
-    <img
-      className="block"
-      src="/images/agregar-existencia.png"
-      alt="Agregar Existencia"
-    />
-    </Frame>
-   <Note>Esta opción es ideal para ajustes puntuales o correcciones. Debe usarse solo en casos extraordinarios ya que el sistema no tendra información del costo unitario.</Note>
+   <Note>Esta opción es ideal para ajustes puntuales o correcciones. El sistema no tendra información para calcular el costo unitario si se usa este método.</Note>
 
 2. **Automática por Venta:**
     Cuando se registra una venta en el módulo de [**Ventas**](https://docs.abigail.mx/modulos/ventas), el inventario de los productos vendidos se reduce automáticamente.
@@ -83,6 +57,8 @@ El inventario varía según los productos y es independiente entre almacenes. Ha
 3. **Automática por Compra:**
     Cuando una compra a proveedor se marca como **Entregado** en el módulo de [**Compras**](https://docs.abigail.mx/modulos/compras) o [**Órdenes de Proveedores**](https://docs.abigail.mx/modulos/ordenesDeProveedores), el inventario de los productos comprados se incrementa automáticamente.
 
+4. **Automática por Producción:**
+    Cuando se registra una producción en el módulo de [**Producción**](https://docs.abigail.mx/modulos/produccion), el inventario de los productos producidos se incrementa automáticamente y el inventario de los productos utilizados se reduce.
 ---
 
 <Card title="Subscribete hoy mismo" icon="rocket" href="https://www.abigail.mx/planes">

@@ -2,58 +2,37 @@
 title: 'Cuentas por Pagar'
 description: 'Gestiona las cuentas pendientes con tus proveedores.'
 ---
-
-# Cuentas por Pagar: Gestión de Cuentas Pendientes
-
-Para visualizar las cuentas por pagar, debe tener acceso al módulo de **Cuentas por Pagar**.
+<Warning>
+Para visualizar y gestionar las cuentas por pagar de tu empresa, necesitas tener acceso al módulo de **Cuentas Por Pagar**.
+</Warning>
 
 ## Navegación y Acceso
 
-1. **Acceda al Módulo de Cuentas por Pagar:**
+**Acceda al Módulo de Cuentas por Pagar:**
    - En la barra de navegación, busque el apartado **Cuentas por Pagar** y haga clic en él.
 
-## Información del Módulo
+## Listado de Cuentas por Pagar
 
-El módulo de Cuentas por Pagar le ayuda a llevar un registro de las cuentas pendientes con sus proveedores.
+Una vez dentro del módulo, encontrará una lista detallada de las **Cuentas Por Pagar** de tu empresa. Puede filtrar esta lista para una búsqueda más eficiente. También puede exportarla a Excel.
 
-### Vista General
+## Gráfica de Cuentas por Pagar
 
-1. **Listado de Cuentas por Pagar:**
-   - En la primera pantalla, encontrará un listado de las cuentas por pagar, que incluye:
-     - Nombre del proveedor
-     - Fecha de pago
-     - Monto restante
-   - También encontrará una gráfica de barras que desglosa las cuentas por mes.
+Debajo del listado, se encuentra una gráfica de barras que desglosa las **Cuentas Por Pagar** por mes. Esta gráfica se puede descargar como imagen o CSV al presionar en el icono de las 3 lineas en la parte superior derecha.
 
-   <img
-     className="block"
-     src="/images/accounts-payable-list-es.png"
-     alt="Listado de Cuentas por Pagar"
-   />
+## Creación de Cuentas por Pagar
 
-### Creación y Gestión de Cuentas
+Para crear una nueva cuenta por pagar, realice una compra a un proveedor en el módulo de [Compras](http://docs.abigail.mx/modulos/compras), completando la información solicitada. Si el monto pagado es menor al monto total, el sistema creara una **Cuenta Por Pagar** con la información correspondiente automaticamente.
+<Tip>
+Si el monto pagado es igual al monto total, el sistema NO creara una **Cuenta Por Pagar**.
+</Tip>
 
-1. **Creación de Cuentas por Pagar:**
-   - No puede agregar cuentas por pagar directamente desde este apartado.
-   - Para crear una nueva cuenta por pagar, realice una compra a un proveedor en el módulo de **Compras**, seleccionando el estatus de pago como "Pendiente" o "Parcial" y completando la información solicitada.
+## Gestión de Cuentas por Pagar
 
-2. **Gestión de Cuentas:**
-   - Al ingresar al detalle de una cuenta por pagar, puede ajustar el monto pagado para llevar un registro de los pagos. Este abono se registrará en el módulo de **Gastos** como "Pago a Proveedor".
-   - Ejemplo: Si realiza una compra de mercancía por $1000 y recibe un pago parcial de $500, se creará una cuenta por pagar por $500 y un registro en gastos como "Compra de Mercancía". Si luego paga $700, se registrará el pago como "Pago a Proveedor" por la diferencia de $200.
+Puede ingresar a los detalles de una **Cuenta Por Pagar** al hacer clic en la flecha de lado izquierdo de cada entrada en la lista.
+Una vez dentro, podra visualizar informacion detallada de la **Cuenta Por Pagar** y los pagos realizados.
 
-   <img
-     className="block"
-     src="/images/accounts-payable-details-es.png"
-     alt="Detalles de Cuenta por Pagar"
-   />
+Para registrar un pago, haga clic en **Agregar** y complete la información solicitada. El sistema registrará el pago en el módulo de [Gastos](http://docs.abigail.mx/modulos/gastos) como "Pago a Proveedor".
 
-3. **Cambio de Estatus:**
-   - Si cambia el estatus de la cuenta a "Pagado", se registrará el pago en gastos como "Pago a Proveedor" por la diferencia. Por ejemplo, si el monto total era $1200 y ya se había pagado $500, cambiar el estatus a "Pagado" registrará un pago de $700.
-
-   <img
-     className="block"
-     src="/images/accounts-payable-status-es.png"
-     alt="Cambio de Estatus"
-   />
-
-Cuando la cantidad pagada sea igual o mayor al monto total de la cuenta y/o el estatus sea "Pagado", la cuenta por pagar se eliminará automáticamente del sistema.
+<Tip>
+Si el monto pagado es igual al monto total, el sistema marcara la **Cuenta Por Pagar** como **Pagada**.
+</Tip>
