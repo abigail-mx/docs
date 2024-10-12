@@ -93,6 +93,7 @@
         "modulos/cuentasPorPagar",
         "modulos/directorio",
         "modulos/gastos",
+        "modulos/facturas",
         "modulos/ingresos",
         "modulos/inicio",
         "modulos/miCompañia",
