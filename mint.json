@@ -85,6 +85,8 @@
       "group": "Módulos",
       "pages": [
         "modulos/almacenes",
+        "modulos/clientes",
+        "modulos/compras",
         "modulos/contabilidad",
         "modulos/cotizaciones",
         "modulos/cuentasPorCobrar",

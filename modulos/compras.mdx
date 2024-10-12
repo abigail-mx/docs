@@ -1,0 +1,58 @@
+---
+title: 'Compras'
+description: 'Registrar compras con abigail para llevar un control de gastos e inventario automatizado.'
+---
+<Warning>
+Para visualizar y registrar compras, necesitas tener acceso al módulo de **Compras**.
+</Warning>
+
+## Navegación y Acceso
+
+**Accede al Módulo de Compras:**
+   - En la barra de navegación, busca y selecciona el módulo **Compras** y haga clic en él.
+
+## Listado de Compras
+
+Una vez dentro del módulo, encontrarás una lista detallada de sus **Compras**. Puedes filtrar esta lista para una búsqueda más eficiente. También puedes exportarla a Excel.
+
+## Registrar Compra
+En el listado, haz clic en **Agregar**, completa los campos solicitados. Puede agregar productos y servicios a la compra, si desea incluir impuestos y más información.
+
+Al registrar una compra, suceden los siguientes eventos:
+
+<Steps>
+    <Step title="Compra">
+        Se registra la compra con la información proporcionada.
+    </Step>
+    <Step title="Inventario">
+        Se actualiza el inventario de los productos comprados. Siempre y cuando esten marcados como **Entregado**.
+    </Step>
+    <Step title="Cuentas por Pagar">
+        Se crea una **Cuenta Por Pagar** con la información correspondiente si el monto pagado es menor al monto total.
+    </Step>
+    <Step title="Órden de Proveedor">
+        Se crea una **Órden de Proveedor** con la información correspondiente. Para llevar un control de las compras pendientes.
+    </Step>
+    <Step title="Gasto">
+        Se registra el gasto en el módulo de **Gastos**. Siempre y cuando se haya pagado la compra.
+    </Step>
+</Steps>
+
+## Descargar Cotización
+Puede descargar la cotización en formato PDF al hacer clic en **Generar PDF** en la parte inferior de la página de detalles de la cotización.
+
+## Convertir Cotización en Venta
+Si la cotización es aceptada por el cliente, puede convertirla en una venta al hacer clic en **Convertir en Venta** en la parte inferior de la página de detalles de la cotización. Esto lo llevara al módulo de [Ventas](https://docs.abigail.mx/modulos/ventas) con la información de la cotización prellenada.
+
+<Warning>
+Una vez convertida en venta, la cotización se eliminará.
+</Warning>
+<Warning>
+Es necesario tener acceso al módulo de **Ventas** para convertir una cotización en venta.
+</Warning>
+
+---
+
+<Card title="Subscribete hoy mismo" icon="rocket" href="https://www.abigail.mx/planes">
+  abigail simplifica la gestión del inventario, permitiéndote concentrarte en lo que realmente importa: hacer crecer tu negocio. Explora nuestras funcionalidades avanzadas de CRM y ERP para llevar tu empresa al siguiente nivel.
+</Card>
