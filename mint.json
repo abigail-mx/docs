@@ -100,6 +100,7 @@
         "modulos/produccion",
         "modulos/productos",
         "modulos/proveedores",
+        "modulos/roles",
         "modulos/servicios",
         "modulos/usuarios"
       ]
