@@ -102,7 +102,8 @@
         "modulos/proveedores",
         "modulos/roles",
         "modulos/servicios",
-        "modulos/usuarios"
+        "modulos/usuarios",
+        "modulos/ventas"
       ]
     }
   ],
